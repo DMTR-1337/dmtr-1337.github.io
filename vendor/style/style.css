@@ -1,0 +1,77 @@
+/*Page Structure starts here*/
+body /*Body of the page*/
+{ 
+  background: url("../media/background.jpg") center / cover no-repeat fixed;
+  overflow: hidden;
+  color: #3db7c7;
+  font-family: "JetBrains Mono", monospace;
+}
+/*Page Structure ends here*/
+
+
+/*Page Content starts here*/
+
+/*Terminal Window starts here*/
+.window /*Terminal window*/
+{
+  position: absolute;
+  top: 90px;
+  left: 120px;
+  width: 880px;
+  background: rgba(5, 10, 15, 0.95);
+  border-radius: 8px;
+}
+.window-header /*Terminal window header*/
+{ 
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  background: #0b141a;
+  border-radius: 8px 8px 0 0;
+  cursor: move;
+}
+
+.title /*Terminal window title*/
+{ 
+  margin-left: 10px;
+  font-size: 13px;
+  color: #7fffd4;
+}
+
+.btn /* Terminal window buttons */
+{
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+/*Terminal window ends here*/
+
+/*Content inside terminal starts here*/
+.terminal 
+{
+  height: 460px;
+  padding: 16px;
+  font-size: 14px;
+  overflow-y: auto;
+}
+.line /*Terminal Text Line*/
+{
+  margin-bottom: 2px;
+  white-space: pre;
+}
+.prompt /*Terminal prompt text color*/
+{
+  color: #52eafe;
+}
+input /*Terminal prompt input*/
+{
+  width: 100%;
+  font-size: 14px;
+  color: #3db7c7;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+/*Content inside terminal ends here*/
+/*Page content ends here*/
