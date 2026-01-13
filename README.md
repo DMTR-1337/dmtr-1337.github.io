@@ -21,8 +21,8 @@ An interactive **ParrotOS-style terminal portfolio** with a draggable terminal w
 
 ---
 
-## Showcase
-![Showcase](https://files.catbox.moe/u4zfz8.gif)
+## Screenshot
+![Neofetch example](https://files.catbox.moe/h34nj6.png)
 
 
 ---
