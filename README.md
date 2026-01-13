@@ -22,7 +22,7 @@ An interactive **ParrotOS-style terminal portfolio** with a draggable terminal w
 ---
 
 ## Showcase
-[![Showcase](https://files.catbox.moe/u4zfz8.gif)]
+![Showcase](https://files.catbox.moe/u4zfz8.gif)
 
 
 ---
