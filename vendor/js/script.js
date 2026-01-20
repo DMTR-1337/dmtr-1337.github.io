@@ -126,7 +126,7 @@ function run(cmd){ /*Terminal command logic*/
         print("You can find all my projects on my GitHub: https://github.com/dmtr-1337")
         print("Card-Game - Card Game made using HTML/CSS/JS, you play against the computer.");
         print("C++ Bit-Merger - Allows you to merge 2 smaller integers to 1 bigger integer.");
-        print("php-reverseshell - PHP reverse shell implementation designed for penetration testing and educational purposes. It establishes a remote connection back to your listener.");
+        print("php-reverseshell - PHP reverse shell implementation designed for penetration testing and educational purposes.");
     break;
     default: /*Unknown command handler*/
     print(`Command not found: ${cmd}`);
@@ -138,4 +138,5 @@ document.addEventListener("DOMContentLoaded", () => /*Wait for html load before 
 { 
   loadPrompt(); /*Initialize prompt after page is ready*/
 });
+
 
